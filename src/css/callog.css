@@ -1,0 +1,65 @@
+.clallist {
+    padding: 8px 8px 8px 15px;
+    border-radius: 4px;
+    border: 1px solid gainsboro;
+    width: 87%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    float: left;
+    
+}
+
+.callname{
+    float: left;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 65%;
+}
+
+.subcallname{
+    font-size: 12px;
+    font-weight: normal;
+    color: grey;
+    padding-top: 3px;
+}
+
+.avatar{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+
+.lefticon{
+    float: left;
+}
+
+.detailbox{
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.labeldetail{
+    float: left;
+    padding-left: 30px;
+    width: 80px;
+}
+.laberightldetail{
+    float: left;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.timeclass{
+    float: left;
+}
+
+.classmain{
+    height: 70%;
+    overflow: scroll;
+}
