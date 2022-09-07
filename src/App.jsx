@@ -1,3 +1,4 @@
+import "./css/app.css";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Calldetail from './Calldetail.jsx';
@@ -7,19 +8,14 @@ import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-rou
 
 const App = () => {
   return (
-    <div className='container'>
-      <Header/>
-      {/* <Tabsview/> */}
-
+    <div className="container">
+      <Header />
       <BrowserRouter>
-        {/* <Menubar />     */}
         <Routes>
-        
-          <Route path="/" element={<Tabsview />} />          
+          <Route path="/" element={<Tabsview />} />
           <Route path="/calldetail" element={<Calldetail />} />
         </Routes>
       </BrowserRouter>
-      
     </div>
   );
 };
